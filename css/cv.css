@@ -1,0 +1,144 @@
+body{
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  
+}
+#pagecontainer{
+    height: 100vh;
+}
+.bd-highlight{
+   background-color :rgba(222, 222, 222, 0.589);
+   border: 1px solid rgba(222,222,222,.15);
+
+}
+#menucontainer{
+  min-width: 300px;  
+  max-width: 300px;
+  background-color: #121212;
+
+}
+#contentcontainer{
+  max-height: 100vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  
+
+}
+.mobilemenu{
+  background-color: transparent !important;
+}
+#contentcontainer section{
+  height: 100vh;
+}
+#sectionhome{
+  background-image: url('../images/comp.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+#sectionhome > div{
+  height: 100vh;
+  background-color: rgb(22,22,22,.6);
+}
+#sectionhome .typedhome{
+  border-bottom: 2px solid lightblue;
+  padding-bottom: 4px;
+
+}
+.sectiontitel{
+  padding-top: 20px;
+  font-size: 150%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.sectiontitel::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-top: 5px;
+  background-color:black;
+}
+.aboutitems{
+  margin-bottom: 20px;
+  display: block;
+}
+.skilssitem div div div span{
+  font-weight: 700;
+
+}
+.skilssitem div div div div{
+  font-weight: 700;
+  background-color:lightblue;
+  height: 10px;
+
+}
+.skilssitem div div div div div{
+  font-weight: 700;
+  background-color: darkblue;
+  
+
+}
+
+
+.resumeitems {
+  padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid lightblue;
+    
+    
+    
+}
+
+.resumeitems::before{
+  content: "";
+  width: 17px;
+  height: 17px;
+  border-radius: 60px;
+  background-color: white;
+  display: block;
+  position: relative;
+  right:30px;
+  border:2px solid black;
+  
+
+}
+.resumeitems h5{
+  font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#sectionskilss{
+  position: relative;
+  top: 80px;
+}
+#sectioncontact{
+  position: relative;
+  top :480px;
+}
+
+
+
+
+
+
+
+
+.border-5{
+    border-width: 5px;
+   border-bottom-style: solid;
+}
+.form-container{
+  position: relative;
+  
+  border: 0px solid ;padding: 50px 60px; margin-top: 20vh;
+      
+-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,75);
+-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,75);
+box-shadow:-1px 4px 26px 11px rgba(0,0,0,75);
+          
+     }
